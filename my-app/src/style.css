@@ -1,18 +1,15 @@
-/*
 body {
   background-color: black;
   font-family: 'Nanum Gothic', sans-serif;
 }
- */
 
 .ui.text.topmenu.menu {
-  background-color: black;
   margin-left: 170px;
   margin-right: 170px;
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 500px;
 }
 
 .ui.header {
@@ -25,9 +22,6 @@ h1 {
   height: 800px;
 }
 
-.circular.ui.icon.middle.button {
-  background-color: #1ed760;
-}
 
 .centered {
   position: absolute;
@@ -38,6 +32,7 @@ h1 {
 }
 
 .footer.background {
+  background-color: black;
   color: white;
   font-size: small;
   padding-top: 100px;
