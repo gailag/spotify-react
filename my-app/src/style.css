@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.ui.text.topmenu.menu {
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.ui.header {
+  font-size: 600px;
+}
+
+.middlemenu-background {
+  background: url("https://puu.sh/IKX8e/0f8104569e.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 800px;
+}
+
+.circular.ui.icon.middle.button {
+  background-color: #1ed760;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: #1ed760;
+}
+
+.footer.background {
+  color: white;
+  font-size: small;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.ui.circular.instagram.icon.button {
+  color: grey;
+}
+
+.instagram.icon {
+  color: white;
+}
+
+.twitter.icon {
+  color: white;
+}
+
+.facebook.icon {
+  color: white;
+}
+
+.ui.circular.icon.button {
+  background-color: grey;
+}
+
+.ui.text.inverted.bottom.menu {
+  font-size: smaller;
+  margin-left: 170px;
+  margin-right: 170px;
+  padding-bottom: 30px;
+}
