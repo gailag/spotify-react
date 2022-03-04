@@ -1,9 +1,12 @@
+/*
 body {
   background-color: black;
   font-family: 'Nanum Gothic', sans-serif;
 }
+ */
 
 .ui.text.topmenu.menu {
+  background-color: black;
   margin-left: 170px;
   margin-right: 170px;
 }
