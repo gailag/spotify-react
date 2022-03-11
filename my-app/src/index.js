@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 import 'semantic-ui-css/semantic.min.css';
-import { Container, Grid, Header, Image, Item, Label, List, Menu } from 'semantic-ui-react';
+import { Container, Grid, Header, Image, List, Menu, Icon, Button } from 'semantic-ui-react';
 
 //top menu
 class TopMenu extends React.Component {
@@ -10,13 +10,13 @@ class TopMenu extends React.Component {
     return (
         <Menu inverted borderless className="topmenu">
           <Container style={{padding: 20}}>
-            <Image size="small" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" />
-            <Menu.Item href='#' position="right">Premium</Menu.Item>
-            <Menu.Item href='#'>Support</Menu.Item>
-            <Menu.Item href='#'>Download</Menu.Item>
+            <Image size={"small"} src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" />
+            <Menu.Item position="right">Premium</Menu.Item>
+            <Menu.Item>Support</Menu.Item>
+            <Menu.Item>Download</Menu.Item>
             <Menu.Item>|</Menu.Item>
-            <Menu.Item href='#'>Sign up</Menu.Item>
-            <Menu.Item href='#'>Log in</Menu.Item>
+            <Menu.Item>Sign up</Menu.Item>
+            <Menu.Item>Log in</Menu.Item>
           </Container>
         </Menu>
     );
@@ -26,13 +26,14 @@ class TopMenu extends React.Component {
 //middle menu
 class MiddleMenu extends React.Component {
   render() {
+    const textStyle = { color: 'white', fontWeight: 800, fontSize: '40px' };
     return (
         <div className="middlemenu-background">
-          <Container  style={{paddingTop: "350px"}} textAlign='center'>
-            <Header as="h1">Listening is everything</Header>
-            <Header as="h3">Millions of songs and podcasts. No credit card needed.</Header>
-            <button class='ui circular button' color='#1ed760' size='huge' href='#'>GET SPOTIFY FREE</button>
-          </Container>
+          <div style={{ paddingTop: '300px' }} align="center">
+            <Header as="h1" textAlign="center" style={textStyle}>Listening is everything</Header>
+            <Header as="h3" textAlign="center" color='white'>Millions of songs and podcasts. No credit card needed.</Header>
+            <Button className='ui circular button' size={"huge"}>GET SPOTIFY FREE</Button>
+          </div>
         </div>
     );
   }
@@ -80,9 +81,9 @@ class FooterMenu extends React.Component {
               </Grid.Column>
 
               <Grid.Column>
-               <button class="ui circular icon button"><i class="instagram icon"></i></button>
-               <button class="ui circular icon button"><i className="twitter icon"></i></button>
-               <button class="ui circular icon button"><i className="facebook icon"></i></button>
+               <Button className="ui circular icon button"><Icon name="instagram"/></Button>
+               <Button className="ui circular icon button"><Icon name="twitter"/></Button>
+               <Button className="ui circular icon button"><Icon name="facebook"/></Button>
               </Grid.Column>
 
             </Grid>
@@ -92,7 +93,6 @@ class FooterMenu extends React.Component {
     );
   }
 }
-
 
 class Spotify extends React.Component {
 

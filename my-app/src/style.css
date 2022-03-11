@@ -1,19 +1,11 @@
-body {
+.body {
   background-color: black;
-  font-family: 'Nanum Gothic', sans-serif;
+  background-size: cover;
 }
 
-.ui.text.topmenu.menu {
+.topmenu.menu {
   margin-left: 170px;
   margin-right: 170px;
-}
-
-h1 {
-  font-size: 500px;
-}
-
-.ui.header {
-  font-size: 600px;
 }
 
 .middlemenu-background {
@@ -22,13 +14,9 @@ h1 {
   height: 800px;
 }
 
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
+.ui.circular.button > .middlemenu-background {
   color: #1ed760;
+
 }
 
 .footer.background {
@@ -37,10 +25,6 @@ h1 {
   font-size: small;
   padding-top: 100px;
   padding-bottom: 80px;
-}
-
-.ui.circular.instagram.icon.button {
-  color: grey;
 }
 
 .instagram.icon {
@@ -57,11 +41,6 @@ h1 {
 
 .ui.circular.icon.button {
   background-color: grey;
+
 }
 
-.ui.text.inverted.bottom.menu {
-  font-size: smaller;
-  margin-left: 170px;
-  margin-right: 170px;
-  padding-bottom: 30px;
-}
